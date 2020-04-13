@@ -3,6 +3,7 @@ module.exports = {
     title: `Pandas Eating Lots`,
   },
   plugins: [
+    `gatsby-plugin-postcss`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
